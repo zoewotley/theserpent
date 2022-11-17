@@ -1,0 +1,67 @@
+/*  serpent = img*/
+#serpent {
+ float: center;
+ width: 14em;
+ height: 20em ;
+
+}
+
+h1 {
+text-align:center;
+background-image: url("../img/serpent2.jpg"); /* */
+background-size: 100%;
+color: rgb(255, 255, 255);
+font-size: 600% ;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  background-color: rgba(80, 199, 145, 0.82);
+}
+
+
+/* ändra bakgrundsfärg på dropdown-meny (vid hover)*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* visa menyn som dropdown-meny när man hovererar med musen*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Länkarnas utseende inuti dropdownmenyn */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Själva dropdownmenyns utseende */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+  /* Containern <div> - som behövs för att kunna positionera dropdownmenyn */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Hur "dropdown button" ska se ut. Alltså själva knappen*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
